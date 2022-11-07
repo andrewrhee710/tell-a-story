@@ -1,0 +1,135 @@
+/*Interactive porridge start*/
+
+div#tooHot > img.porridge{
+    width:40%;
+    height:40%;
+    filter: hue-rotate(300deg);
+    
+}
+div#tooCold > img.porridge{
+    width:40%;
+    height:40%;
+    filter: hue-rotate(145deg);}
+
+
+
+div#justRightPorridge > img.porridge{
+    width:40%;
+    height:40%;
+}
+#tooHot:hover::after {
+    content: "She tasted Papa Bear's Porridge, but it was far too hot for her.";
+    font-size: 20px;
+
+}
+
+#tooCold:hover::after {
+    content: "She then tried Mama Bear's Porridge, but it was far too cold for her.";
+    font-size: 20px;
+}
+
+#justRightPorridge:hover::after {
+    content: "Finally, she tasted Baby Bear's Porridge, and it was just right! Yummy!";
+    font-size: 20px;
+}
+
+/*Interactive porridge end*/
+/*Interactive chairs start*/
+div#tooBig > img.chair{
+    width:50%;
+    height:50%;
+    
+}
+div#tooSmall > img.chair{
+    width:25%;
+    height:25%;
+    
+}
+div#justRightChair>img.chair{
+    width:40%;
+    height:40%;
+    
+}
+#tooBig:hover::after {
+    content: "She sat in Papa Bear's big chair, but it was far too Large for her.";
+    font-size: 20px;
+}
+
+#tooSmall:hover::after {
+    content: "She then sat in Baby Bear's small chair, but it was far too small for her.";
+    font-size: 20px;
+}
+
+#justRightChair:hover::after {
+    content: "Finally, she sat in Mama Bear's Medium chair, and it was just right!";
+    font-size: 20px;
+}
+
+
+
+/*Interactive chairs end*/
+
+/*Interactive beds start*/
+
+
+div#tooHard >img.bed{
+    width:50%;
+    height:50%;
+}
+div#tooSoft >img.bed{
+    width:40%;
+    height:40%;
+}
+div#justRightBed >img.bed{
+    width:35%;
+    height:35%;
+}
+#tooHard:hover::after {
+    content: "She laid down in Papa Bear's big bed, but it was far too hard for her.";
+    font-size: 20px;
+}
+
+#tooSoft:hover::after {
+    content: "She then laid down in Mama Bear's medium bed, but it was far too soft for her.";
+    font-size: 20px;
+}
+
+#justRightBed:hover::after {
+    content: "She finally laid down in Baby Bear's small bed, and it was just right for her!";
+    font-size: 20px;
+}
+/*Interactive beds end*/
+
+
+
+.caption {
+    font-size: 12px;
+}
+
+.transition {
+    font-style: italic;
+    font-size: 22px;
+}
+
+.upset {
+    font-weight: bold;
+    transition: font-size 1s, color 1s;
+}
+
+.upset:hover {
+    font-size: 20px;
+    color: red;
+}
+
+img {
+    width: 50%;
+    filter: drop-shadow(3px 3px 3px black);
+}
+
+body {
+    background-color: #FFD2B6;
+    font-family: Georgia;
+}
+
+
+
